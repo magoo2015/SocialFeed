@@ -17,7 +17,8 @@ function App() {
   }
   return (
     <div className='container-fluid'>
-      <h3>SocialFeed</h3>
+      <h3 style={{margin: '1em'}}>Social
+      <small className='text-muted'>Feed</small></h3>
         <div className='border-box'>
           <CreatePost AddNewPostProperty={addNewPost}/>
         </div>
