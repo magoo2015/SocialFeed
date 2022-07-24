@@ -1,0 +1,9 @@
+#navbar{
+    background-color:azure;
+    width: 100%;
+}
+#navbartitle{
+    font-family: fantasy;
+    font-weight: 500;
+    font-size:larger;
+}
