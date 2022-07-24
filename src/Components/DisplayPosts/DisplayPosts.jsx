@@ -1,3 +1,6 @@
+import Post from "../PostMap/Post";
+import './DisplayPosts.css';
+
 
 const DisplayPosts = (props) => {
     return (
@@ -5,8 +8,9 @@ const DisplayPosts = (props) => {
             {props.parentEntries.map((post, index) =>{
                 return (
                     <div>
-                        <p>{post.name}</p>
-                        <p>{post.userPost}</p>
+                        <p id="name">{post.name}</p>
+                        <p id="userPost">{post.userPost}</p>
+                        <Post />
                     </div>
                     
 
