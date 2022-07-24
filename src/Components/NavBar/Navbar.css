@@ -1,11 +1,16 @@
 #navbar{
-    background-color:rgb(226, 247, 247);
+    background-color:rgb(53, 65, 104);
     width: 100%;
-    text-align: center;
+    margin: 35px;
+    
+    
 }
 #navbartitle{
+    color: rgb(241, 235, 235);
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-weight: 400;
     font-size:larger;
+    text-align: left;
+    
     
 }

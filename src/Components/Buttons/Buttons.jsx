@@ -6,30 +6,31 @@ const Buttons = (props) => {
     const [approveButton, setApproveButton ] = useState("inactive");
     const [disapproveButton, setDisapproveButton] = useState("inactive")
 
-    function handleClick(){
+    function handleClickLike(){
         if(approveButton === "inactive"){
             setApproveButton('active');
             setDisapproveButton('inactive');
-        }
-        else if (approveButton === "active"){
+        } else {
             setApproveButton('inactive');
-        }
-        else if (disapproveButton === "inactive"){
-            setDisapproveButton("active");
+        }         
+    }
+
+    function handleClickDislike(){
+        if(disapproveButton === "inactive"){
+            setDisapproveButton('active');
             setApproveButton('inactive');
-        }
-        else if (disapproveButton === "active"){
-            setDisapproveButton("inactive");
+        } else {
+            setDisapproveButton('inactive');
         }
     }
 
     return (
         <div className="Buttons" id="buttons">
             <div>
-                <button className={approveButton} onClick={handleClick} name="approve" id="approve">Like 😀</button>
+                <button className={approveButton} onClick={handleClickLike} name="approve" id="approve">Like 😀</button>
             </div>
             <div>
-                <button className={disapproveButton} onClick={handleClick} name="disapprove" id="disapprove">Dislike 🥵</button>
+                <button className={disapproveButton} onClick={handleClickDislike} name="disapprove" id="disapprove">Dislike 🥵</button>
             </div>
 
         </div>
