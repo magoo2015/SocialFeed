@@ -6,7 +6,7 @@ import './Navbar.css';
 const Navbars = () => {
     return(
         <Navbar id="navbar">
-            <Navbar.Brand id="navbartitle">McGee Family SOCIALFeed</Navbar.Brand>
+            <Navbar.Brand id="navbartitle">SOCIALFeed</Navbar.Brand>
         </Navbar>
     );
 

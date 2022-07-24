@@ -24,7 +24,7 @@ const Buttons = (props) => {
     }
 
     return (
-        <div>
+        <div className="Buttons" id="buttons">
             <div>
                 <button className={approveButton} onClick={handleClick} name="approve" id="approve">Like 😀</button>
             </div>

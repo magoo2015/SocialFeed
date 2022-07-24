@@ -2,6 +2,14 @@
     border: 1px;
     border-style: solid;
     border-color: black;
+    background: rgb(147, 146, 146);
     margin: 1em;
     padding: 1em;
+}
+
+body {
+    background-image: url(./Components/background2.avif);
+    width: 100%;
+    background-size: cover;
+    
 }
